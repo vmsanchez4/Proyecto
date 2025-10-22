@@ -13,12 +13,18 @@ public class Estudiante {
     String nombre;
     String cedula;
     int edad;
-    
-    public Estudiante(){
-    
+
+    public Estudiante(String nombre, String cedula, int edad) {
+        this.nombre = nombre;
+        this.cedula = cedula;
+        this.edad = edad;
     }
+    
     
     public void mostrarInformacion(){
         System.out.println("Su nombre es: " + nombre);
+        System.out.println("Su edad es:" + edad);
+        System.out.println("Su cedula es:" + cedula);
     }
+    
 }
