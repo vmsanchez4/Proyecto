@@ -14,5 +14,10 @@ public class Practica {
         System.out.println("Hello World!");
         
         System.out.println("Vicente si viste que es facil ");
+        
+        Estudiante estudiante1 = new Estudiante("Santiago","1752094001",3);
+        
+        
+        estudiante1.mostrarInformacion();
     }
 }
